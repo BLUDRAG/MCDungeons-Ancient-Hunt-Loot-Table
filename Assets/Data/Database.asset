@@ -1,0 +1,4517 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d9bbd30e8b8c1b499d79bea2753464e, type: 3}
+  m_Name: Database
+  m_EditorClassIdentifier: 
+  LoadButton: 0
+  Runes:
+  - Name: A
+    Image: {fileID: 21300000, guid: bc828e4ba96063d47a9993ba3ad84b0f, type: 3}
+  - Name: C
+    Image: {fileID: 21300000, guid: 58f39b63c5c222e488385a49b82075e4, type: 3}
+  - Name: I
+    Image: {fileID: 21300000, guid: d6115598af5c90c41bba76ccfbcd1278, type: 3}
+  - Name: P
+    Image: {fileID: 21300000, guid: 8f58e2d045beddc47b4c4e3a26d8c82c, type: 3}
+  - Name: Q
+    Image: {fileID: 21300000, guid: c18ad14d06e41564886eba4f4cbc18d9, type: 3}
+  - Name: R
+    Image: {fileID: 21300000, guid: c1a0304fc4305c14b896e823b3c61e72, type: 3}
+  - Name: S
+    Image: {fileID: 21300000, guid: 2c1a332dae474e44db56065ee3a63a74, type: 3}
+  - Name: T
+    Image: {fileID: 21300000, guid: ce0d2598e881ecb469fc0d12759ffa0d, type: 3}
+  - Name: U
+    Image: {fileID: 21300000, guid: 2d9d07dd863a94543ade9ac78501b37c, type: 3}
+  LootTablesData: {fileID: 4900000, guid: ab5e6f571a5584247ab80d65ac5d83a8, type: 3}
+  WeaponsData: {fileID: 4900000, guid: 761ed14c9f0fb4a46bd0398d588ffea0, type: 3}
+  ArmorData: {fileID: 4900000, guid: 803efbdb08e880340bd411be3432286e, type: 3}
+  BowsData: {fileID: 4900000, guid: 9829ddcdb88100f499f6f3931cb3ec6b, type: 3}
+  ArtifactsData: {fileID: 4900000, guid: be25cb3e14dcbd84496fc4ac24d69cc9, type: 3}
+  LootTables:
+  - Mob: ?????
+    Loot: Gauntlets,Ghostly Armor,Dual Crossbows,Katana
+    C: 1
+    R: 
+    I: 1
+    A: 1
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 1
+    AllLoot:
+    - Gauntlets
+    - Ghostly Armor
+    - Dual Crossbows
+    - Katana
+  - Mob: Abominable Weaver
+    Loot: Double Axe,Trickbow,Battle Robe,Wolf Armor
+    C: 
+    R: 
+    I: 
+    A: 1
+    Q: 
+    U: 
+    S: 1
+    T: 1
+    P: 
+    AllLoot:
+    - Double Axe
+    - Trickbow
+    - Battle Robe
+    - Wolf Armor
+  - Mob: Abyssal Eye
+    Loot: Harpoon Crossbow,Coral Blade,Squid Armor
+    C: 1
+    R: 
+    I: 1
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 1
+    P: 
+    AllLoot:
+    - Harpoon Crossbow
+    - Coral Blade
+    - Squid Armor
+  - Mob: Barrage
+    Loot: Soul Bow,Hunter's Armor,Bow
+    C: 
+    R: 2
+    I: 
+    A: 
+    Q: 1
+    U: 
+    S: 
+    T: 
+    P: 
+    AllLoot:
+    - Soul Bow
+    - Hunter's Armor
+    - Bow
+  - Mob: Cursed Presence
+    Loot: Cutlass,Phantom Armor,Soul Crossbow
+    C: 1
+    R: 
+    I: 1
+    A: 
+    Q: 1
+    U: 
+    S: 
+    T: 
+    P: 
+    AllLoot:
+    - Cutlass
+    - Phantom Armor
+    - Soul Crossbow
+  - Mob: FrostWarden
+    Loot: Snowbow,Snow Armor
+    C: 
+    R: 1
+    I: 
+    A: 
+    Q: 
+    U: 1
+    S: 1
+    T: 
+    P: 
+    AllLoot:
+    - Snowbow
+    - Snow Armor
+  - Mob: Grim Guardian
+    Loot: Sword,Dark Armor,Grim Armor
+    C: 
+    R: 
+    I: 2
+    A: 1
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    AllLoot:
+    - Sword
+    - Dark Armor
+    - Grim Armor
+  - Mob: Haunted Caller
+    Loot: Sickles,Rapid Crossbow,Spelunker Armor,Longbow
+    C: 
+    R: 2
+    I: 
+    A: 1
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    AllLoot:
+    - Sickles
+    - Rapid Crossbow
+    - Spelunker Armor
+    - Longbow
+  - Mob: Oozing Menace
+    Loot: Shortbow,Mercenary Armor,Battlestaff
+    C: 1
+    R: 1
+    I: 
+    A: 
+    Q: 
+    U: 1
+    S: 
+    T: 
+    P: 
+    AllLoot:
+    - Shortbow
+    - Mercenary Armor
+    - Battlestaff
+  - Mob: Pestilent Conjurer
+    Loot: Spear,Glaive,Scatter Crossbow,Heavy Crossbow
+    C: 1
+    R: 1
+    I: 1
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    AllLoot:
+    - Spear
+    - Glaive
+    - Scatter Crossbow
+    - Heavy Crossbow
+  - Mob: Scuttling Torment
+    Loot: Obsidian Claymore,Void Bow,Teleportation Robes
+    C: 1
+    R: 
+    I: 1
+    A: 2
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    AllLoot:
+    - Obsidian Claymore
+    - Void Bow
+    - Teleportation Robes
+  - Mob: Solemn Giant
+    Loot: Rapier,Burst Crossbow,Guard's Armor
+    C: 
+    R: 1
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 1
+    T: 1
+    P: 1
+    AllLoot:
+    - Rapier
+    - Burst Crossbow
+    - Guard's Armor
+  - Mob: The Ancient Terror
+    Loot: Exploding Crossbow,Champion's Armor,Mystery Armor
+    C: 
+    R: 
+    I: 
+    A: 1
+    Q: 1
+    U: 1
+    S: 1
+    T: 
+    P: 
+    AllLoot:
+    - Exploding Crossbow
+    - Champion's Armor
+    - Mystery Armor
+  - Mob: The First Enchanter
+    Loot: Claymore,Soul Scythe,Scale Mail
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 1
+    U: 
+    S: 2
+    T: 
+    P: 
+    AllLoot:
+    - Claymore
+    - Soul Scythe
+    - Scale Mail
+  - Mob: The Seeking Flame
+    Loot: Axe,Evocation Robe,Soul Knife
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 2
+    U: 
+    S: 
+    T: 
+    P: 
+    AllLoot:
+    - Axe
+    - Evocation Robe
+    - Soul Knife
+  - Mob: The Tower
+    Loot: Beenest Armor,Pickaxe,Hunting Bow
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 1
+    U: 2
+    S: 
+    T: 
+    P: 1
+    AllLoot:
+    - Beenest Armor
+    - Pickaxe
+    - Hunting Bow
+  - Mob: The Unending
+    Loot: Bone Cudgel,Twisting Vine Bow,Piglin Armor
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 2
+    S: 
+    T: 1
+    P: 
+    AllLoot:
+    - Bone Cudgel
+    - Twisting Vine Bow
+    - Piglin Armor
+  - Mob: Thundering Growth
+    Loot: Ocelot Armor,Whip
+    C: 2
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 1
+    S: 
+    T: 
+    P: 
+    AllLoot:
+    - Ocelot Armor
+    - Whip
+  - Mob: Tiny Scourge
+    Loot: Daggers,Soul Robe,Thief Armor
+    C: 2
+    R: 
+    I: 
+    A: 
+    Q: 1
+    U: 
+    S: 
+    T: 1
+    P: 
+    AllLoot:
+    - Daggers
+    - Soul Robe
+    - Thief Armor
+  - Mob: Unbreakable One
+    Loot: Power Bow,Great Hammer,Plate Armor,Claymore
+    C: 
+    R: 
+    I: 1
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 2
+    P: 
+    AllLoot:
+    - Power Bow
+    - Great Hammer
+    - Plate Armor
+    - Claymore
+  - Mob: Unstoppable Tusk
+    Loot: Cog Crossbow,Sprout Armor,Broken Sawblade
+    C: 
+    R: 1
+    I: 1
+    A: 1
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    AllLoot:
+    - Cog Crossbow
+    - Sprout Armor
+    - Broken Sawblade
+  - Mob: Vengeful Mariner
+    Loot: Anchor,Turtle Armor,Bubble Bow
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 2
+    T: 1
+    P: 
+    AllLoot:
+    - Anchor
+    - Turtle Armor
+    - Bubble Bow
+  - Mob: Vigilant Scoundrel
+    Loot: Mace,Crossbow,Reinforced Mail
+    C: 
+    R: 1
+    I: 2
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 1
+    P: 
+    AllLoot:
+    - Mace
+    - Crossbow
+    - Reinforced Mail
+  - Mob: Watcher of the End
+    Loot: Entertainer's Garb,Shadow Crossbow,Void Touched Blades
+    C: 1
+    R: 
+    I: 
+    A: 1
+    Q: 
+    U: 
+    S: 
+    T: 1
+    P: 
+    AllLoot:
+    - Entertainer's Garb
+    - Shadow Crossbow
+    - Void Touched Blades
+  - Mob: Windbeard
+    Loot: Wind Bow,Tempest Knife,Climbing Gear,Emerald Gear
+    C: 
+    R: 
+    I: 
+    A: 2
+    Q: 
+    U: 1
+    S: 
+    T: 
+    P: 
+    AllLoot:
+    - Wind Bow
+    - Tempest Knife
+    - Climbing Gear
+    - Emerald Gear
+  Weapons:
+  - Item: Axe
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Creeper Woods,Highblock Halls,Overgrown Temple,Colossal Rampart
+    AllLocations:
+    - Creeper Woods
+    - Highblock Halls
+    - Overgrown Temple
+    - Colossal Rampart
+  - Item: Battlestaff
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Lower Temple,Colossal Rampart,Windswept Peaks,Nether Wastes
+    AllLocations:
+    - Lower Temple
+    - Colossal Rampart
+    - Windswept Peaks
+    - Nether Wastes
+  - Item: Battlestaff of Terror
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    - A
+    Locations: Lower Temple,Colossal Rampart,Windswept Peaks,Nether Wastes
+    AllLocations:
+    - Lower Temple
+    - Colossal Rampart
+    - Windswept Peaks
+    - Nether Wastes
+  - Item: Bee Stinger
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: X
+    S: 
+    T: 
+    P: X
+    Runes:
+    - I
+    - U
+    - P
+    Locations: Arch Haven Daily,Highblock Halls Daily,Frosted Fjord Daily
+    AllLocations:
+    - Arch Haven Daily
+    - Highblock Halls Daily
+    - Frosted Fjord Daily
+  - Item: Bone Crudgel
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Warped Forest,Crimson Forest
+    AllLocations:
+    - Warped Forest
+    - Crimson Forest
+  - Item: Boneclub
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Warped Forest,Crimson Forest
+    AllLocations:
+    - Warped Forest
+    - Crimson Forest
+  - Item: Broadsword
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - I
+    - T
+    Locations: Obsidion Pinnacle,???,Gale Sanctum
+    AllLocations:
+    - Obsidion Pinnacle
+    - ???
+    - Gale Sanctum
+  - Item: Broken Sawblade
+    Type: 0
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - T
+    Locations: Crimson Forest,Nether Fortress
+    AllLocations:
+    - Crimson Forest
+    - Nether Fortress
+  - Item: Chill Gale Knife
+    Type: 0
+    C: X
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - C
+    - S
+    Locations: Windswept Peaks,Colossal Rampart,Gale Sanctum
+    AllLocations:
+    - Windswept Peaks
+    - Colossal Rampart
+    - Gale Sanctum
+  - Item: Claymore
+    Type: 0
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - T
+    Locations: Obsidion Pinnacle,???,Gale Sanctum
+    AllLocations:
+    - Obsidion Pinnacle
+    - ???
+    - Gale Sanctum
+  - Item: Cursed Axe
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - I
+    - A
+    - T
+    Locations: Soggy Swamp,Soggy Cave,Dingy Jungle,Windswept Peaks
+    AllLocations:
+    - Soggy Swamp
+    - Soggy Cave
+    - Dingy Jungle
+    - Windswept Peaks
+  - Item: Cutlass
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Soggy Cave,Cacti Canyon,Fiery Forge,Lost Settlement,Crimson Forest
+    AllLocations:
+    - Soggy Cave
+    - Cacti Canyon
+    - Fiery Forge
+    - Lost Settlement
+    - Crimson Forest
+  - Item: Daggers
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Soggy Swamp,Soggy Cave,Redstone Mines
+    AllLocations:
+    - Soggy Swamp
+    - Soggy Cave
+    - Redstone Mines
+  - Item: Dancer's Sword
+    Type: 0
+    C: X
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - C
+    - I
+    Locations: Soggy Cave,Cacti Canyon,Fiery Forge,Lost Settlement,Crimson Forest
+    AllLocations:
+    - Soggy Cave
+    - Cacti Canyon
+    - Fiery Forge
+    - Lost Settlement
+    - Crimson Forest
+  - Item: Dark Katana
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    - A
+    Locations: Lower Temple,Obsidian Pinnacle,Panda Plateau
+    AllLocations:
+    - Lower Temple
+    - Obsidian Pinnacle
+    - Panda Plateau
+  - Item: Diamond Pickaxe
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    - A
+    Locations: Creepy Crypt,Redstone Mines,Frosted Fjord,Dingy Jungle Daily
+    AllLocations:
+    - Creepy Crypt
+    - Redstone Mines
+    - Frosted Fjord
+    - Dingy Jungle Daily
+  - Item: Diamond Sword
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Creeper Woods,Creepy Crypt,Pumpkin Pastures,Nether Wastes
+    AllLocations:
+    - Creeper Woods
+    - Creepy Crypt
+    - Pumpkin Pastures
+    - Nether Wastes
+  - Item: Double Axe
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - I
+    - T
+    Locations: Soggy Swamp,Soggy Cave,Dingy Jungle,Windswept Peaks
+    AllLocations:
+    - Soggy Swamp
+    - Soggy Cave
+    - Dingy Jungle
+    - Windswept Peaks
+  - Item: Eternal Knife
+    Type: 0
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - Q
+    Locations: Soggy Swamp,Desert Temple,Lone Fortress,Warped Forest
+    AllLocations:
+    - Soggy Swamp
+    - Desert Temple
+    - Lone Fortress
+    - Warped Forest
+  - Item: Fangs of Frost
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - I
+    - S
+    Locations: Soggy Swamp,Soggy Cave,Redstone Mines
+    AllLocations:
+    - Soggy Swamp
+    - Soggy Cave
+    - Redstone Mines
+  - Item: Fighter's Bindings
+    Type: 0
+    C: X
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - C
+    - I
+    Locations: Cacti Canyon,Soggy Cave,Dingy Jungle
+    AllLocations:
+    - Cacti Canyon
+    - Soggy Cave
+    - Dingy Jungle
+  - Item: Firebrand
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    - A
+    Locations: Creeper Woods,Highblock Halls,Overgrown Temple,Colossal Rampart
+    AllLocations:
+    - Creeper Woods
+    - Highblock Halls
+    - Overgrown Temple
+    - Colossal Rampart
+  - Item: Flail
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    - A
+    Locations: Highblock Halls,Underhalls,???,Lost Settlement,Nether Fortress
+    AllLocations:
+    - Highblock Halls
+    - Underhalls
+    - ???
+    - Lost Settlement
+    - Nether Fortress
+  - Item: Fortune Spear
+    Type: 0
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - S
+    Locations: Creeper Woods,Underhalls,Overgrown Temple,Colossal Rampart
+    AllLocations:
+    - Creeper Woods
+    - Underhalls
+    - Overgrown Temple
+    - Colossal Rampart
+  - Item: Freezing Foil
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: X
+    Runes:
+    - I
+    - S
+    - P
+    Locations: Arch Haven Daily,Highblock Halls Daily,Frosted Fjord Daily
+    AllLocations:
+    - Arch Haven Daily
+    - Highblock Halls Daily
+    - Frosted Fjord Daily
+  - Item: Frost Scythe
+    Type: 0
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - Q
+    - S
+    Locations: Pumpkin Pastures,Arch Haven,???,Frosted Fjord
+    AllLocations:
+    - Pumpkin Pastures
+    - Arch Haven
+    - ???
+    - Frosted Fjord
+  - Item: Frost Slayer
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - I
+    - T
+    Locations: Seasonal
+    AllLocations:
+    - Seasonal
+  - Item: Gauntlets
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Cacti Canyon,Soggy Cave,Dingy Jungle
+    AllLocations:
+    - Cacti Canyon
+    - Soggy Cave
+    - Dingy Jungle
+  - Item: Glaive
+    Type: 0
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - S
+    Locations: Soggy Swamp,Desert Temple,Panda Plateau,Lone Fortress Daily,Basalt
+      Deltas
+    AllLocations:
+    - Soggy Swamp
+    - Desert Temple
+    - Panda Plateau
+    - Lone Fortress Daily
+    - Basalt Deltas
+  - Item: Grave Bane
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - I
+    - S
+    Locations: Soggy Swamp,Desert Temple,Panda Plateau,Lone Fortress Daily,Basalt
+      Deltas
+    AllLocations:
+    - Soggy Swamp
+    - Desert Temple
+    - Panda Plateau
+    - Lone Fortress Daily
+    - Basalt Deltas
+  - Item: Great Axeblade
+    Type: 0
+    C: X
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - C
+    - T
+    Locations: Obsidion Pinnacle,???,Gale Sanctum
+    AllLocations:
+    - Obsidion Pinnacle
+    - ???
+    - Gale Sanctum
+  - Item: Great Hammer
+    Type: 0
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - T
+    Locations: Fiery Forge,Obsidian Pinnacle,Underhalls,Overgrown Temple
+    AllLocations:
+    - Fiery Forge
+    - Obsidian Pinnacle
+    - Underhalls
+    - Overgrown Temple
+  - Item: Growing Staff
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Lower Temple,Colossal Rampart,Windswept Peaks,Nether Wastes
+    AllLocations:
+    - Lower Temple
+    - Colossal Rampart
+    - Windswept Peaks
+    - Nether Wastes
+  - Item: Hammer of Gravity
+    Type: 0
+    C: 
+    R: 
+    I: 
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - A
+    - T
+    Locations: Fiery Forge,Obsidian Pinnacle,Underhalls,Overgrown Temple
+    AllLocations:
+    - Fiery Forge
+    - Obsidian Pinnacle
+    - Underhalls
+    - Overgrown Temple
+  - Item: Hawkbrand
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Creeper Woods,Creepy Crypt,Pumpkin Pastures,Nether Wastes
+    AllLocations:
+    - Creeper Woods
+    - Creepy Crypt
+    - Pumpkin Pastures
+    - Nether Wastes
+  - Item: Heartstealer
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - I
+    - T
+    Locations: Obsidion Pinnacle,???,Gale Sanctum
+    AllLocations:
+    - Obsidion Pinnacle
+    - ???
+    - Gale Sanctum
+  - Item: Highland Axe
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - I
+    - S
+    Locations: Creeper Woods,Highblock Halls,Overgrown Temple,Colossal Rampart
+    AllLocations:
+    - Creeper Woods
+    - Highblock Halls
+    - Overgrown Temple
+    - Colossal Rampart
+  - Item: Jailor's Scythe
+    Type: 0
+    C: 
+    R: 
+    I: 
+    A: X
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - A
+    - Q
+    Locations: Pumpkin Pastures,Arch Haven,???,Frosted Fjord
+    AllLocations:
+    - Pumpkin Pastures
+    - Arch Haven
+    - ???
+    - Frosted Fjord
+  - Item: Katana
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Lower Temple,Obsidian Pinnacle,Panda Plateau
+    AllLocations:
+    - Lower Temple
+    - Obsidian Pinnacle
+    - Panda Plateau
+  - Item: Mace
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Highblock Halls,Underhalls,???,Lost Settlement,Nether Fortress
+    AllLocations:
+    - Highblock Halls
+    - Underhalls
+    - ???
+    - Lost Settlement
+    - Nether Fortress
+  - Item: Machanized Sawblade
+    Type: 0
+    C: X
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - C
+    - T
+    Locations: Crimson Forest,Nether Fortress
+    AllLocations:
+    - Crimson Forest
+    - Nether Fortress
+  - Item: Master's Katana
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Lower Temple,Obsidian Pinnacle,Panda Plateau
+    AllLocations:
+    - Lower Temple
+    - Obsidian Pinnacle
+    - Panda Plateau
+  - Item: Maulers
+    Type: 0
+    C: X
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - C
+    - I
+    Locations: Cacti Canyon,Soggy Cave,Dingy Jungle
+    AllLocations:
+    - Cacti Canyon
+    - Soggy Cave
+    - Dingy Jungle
+  - Item: Moon Daggers
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    - Q
+    Locations: Soggy Swamp,Soggy Cave,Redstone Mines
+    AllLocations:
+    - Soggy Swamp
+    - Soggy Cave
+    - Redstone Mines
+  - Item: Nameless Blade
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - I
+    - S
+    Locations: Soggy Cave,Cacti Canyon,Fiery Forge,Lost Settlement,Crimson Forest
+    AllLocations:
+    - Soggy Cave
+    - Cacti Canyon
+    - Fiery Forge
+    - Lost Settlement
+    - Crimson Forest
+  - Item: Nightmare's Bite
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Pumpkin Pastures,Redstone Mines,Desert Temple,Lost Settlement,Warped
+      Forest
+    AllLocations:
+    - Pumpkin Pastures
+    - Redstone Mines
+    - Desert Temple
+    - Lost Settlement
+    - Warped Forest
+  - Item: Pickaxe
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Creepy Crypt,Redstone Mines,Frosted Fjord,Dingy Jungle Daily
+    AllLocations:
+    - Creepy Crypt
+    - Redstone Mines
+    - Frosted Fjord
+    - Dingy Jungle Daily
+  - Item: Rapier
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: X
+    Runes:
+    - I
+    - P
+    Locations: Arch Haven Daily,Highblock Halls Daily,Frosted Fjord Daily
+    AllLocations:
+    - Arch Haven Daily
+    - Highblock Halls Daily
+    - Frosted Fjord Daily
+  - Item: Resolute Tempest Knife
+    Type: 0
+    C: X
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - C
+    - I
+    Locations: Windswept Peaks,Colossal Rampart,Gale Sanctum
+    AllLocations:
+    - Windswept Peaks
+    - Colossal Rampart
+    - Gale Sanctum
+  - Item: Sheer Daggers
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Soggy Swamp,Soggy Cave,Redstone Mines
+    AllLocations:
+    - Soggy Swamp
+    - Soggy Cave
+    - Redstone Mines
+  - Item: Sickles
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Pumpkin Pastures,Redstone Mines,Desert Temple,Lost Settlement,Warped
+      Forest
+    AllLocations:
+    - Pumpkin Pastures
+    - Redstone Mines
+    - Desert Temple
+    - Lost Settlement
+    - Warped Forest
+  - Item: Sinister Sword
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Seasonal
+    AllLocations:
+    - Seasonal
+  - Item: Soul Fists
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    - Q
+    Locations: Cacti Canyon,Soggy Cave,Dingy Jungle
+    AllLocations:
+    - Cacti Canyon
+    - Soggy Cave
+    - Dingy Jungle
+  - Item: Soul Knife
+    Type: 0
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - Q
+    Locations: Soggy Swamp,Desert Temple,Lone Fortress,Warped Forest
+    AllLocations:
+    - Soggy Swamp
+    - Desert Temple
+    - Lone Fortress
+    - Warped Forest
+  - Item: Soul Scythe
+    Type: 0
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - Q
+    Locations: Pumpkin Pastures,Arch Haven,???,Frosted Fjord
+    AllLocations:
+    - Pumpkin Pastures
+    - Arch Haven
+    - ???
+    - Frosted Fjord
+  - Item: Spear
+    Type: 0
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - S
+    Locations: Creeper Woods,Underhalls,Overgrown Temple,Colossal Rampart
+    AllLocations:
+    - Creeper Woods
+    - Underhalls
+    - Overgrown Temple
+    - Colossal Rampart
+  - Item: Stormlander
+    Type: 0
+    C: 
+    R: 
+    I: 
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - A
+    - T
+    Locations: Fiery Forge,Obsidian Pinnacle,Underhalls,Overgrown Temple
+    AllLocations:
+    - Fiery Forge
+    - Obsidian Pinnacle
+    - Underhalls
+    - Overgrown Temple
+  - Item: Sun's Grace
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - I
+    - S
+    Locations: Highblock Halls,Underhalls,???,Lost Settlement,Nether Wastes
+    AllLocations:
+    - Highblock Halls
+    - Underhalls
+    - ???
+    - Lost Settlement
+    - Nether Wastes
+  - Item: Sword
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Creeper Woods,Creepy Crypt,Pumpkin Pastures,Nether Wastes
+    AllLocations:
+    - Creeper Woods
+    - Creepy Crypt
+    - Pumpkin Pastures
+    - Nether Wastes
+  - Item: Tempest Knife
+    Type: 0
+    C: X
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - C
+    Locations: Windswept Peaks,Colossal Rampart,Gale Sanctum
+    AllLocations:
+    - Windswept Peaks
+    - Colossal Rampart
+    - Gale Sanctum
+  - Item: The Last Laugh
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    - A
+    Locations: Pumpkin Pastures,Redstone Mines,Desert Temple,Lost Settlement,Warped
+      Forest
+    AllLocations:
+    - Pumpkin Pastures
+    - Redstone Mines
+    - Desert Temple
+    - Lost Settlement
+    - Warped Forest
+  - Item: Truthseeker
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    - Q
+    Locations: Soggy Swamp,Desert Temple,Lone Fortress,Warped Forest
+    AllLocations:
+    - Soggy Swamp
+    - Desert Temple
+    - Lone Fortress
+    - Warped Forest
+  - Item: Venom Glaive
+    Type: 0
+    C: 
+    R: 
+    I: 
+    A: X
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - A
+    - S
+    Locations: Soggy Swamp,Desert Temple,Panda Plateau,Lone Fortress Daily,Basalt
+      Deltas
+    AllLocations:
+    - Soggy Swamp
+    - Desert Temple
+    - Panda Plateau
+    - Lone Fortress Daily
+    - Basalt Deltas
+  - Item: Vine Whip
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - I
+    - S
+    Locations: Dingy Jungle,Panda Plateau
+    AllLocations:
+    - Dingy Jungle
+    - Panda Plateau
+  - Item: Whip
+    Type: 0
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - S
+    Locations: Dingy Jungle,Panda Plateau
+    AllLocations:
+    - Dingy Jungle
+    - Panda Plateau
+  - Item: Whirlwind
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - I
+    - A
+    - T
+    Locations: Soggy Swamp,Soggy Cave,Dingy Jungle,Windswept Peaks
+    AllLocations:
+    - Soggy Swamp
+    - Soggy Cave
+    - Dingy Jungle
+    - Windswept Peaks
+  - Item: Whispering Spear
+    Type: 0
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - I
+    - S
+    Locations: Creeper Woods,Underhalls,Overgrown Temple,Colossal Rampart
+    AllLocations:
+    - Creeper Woods
+    - Underhalls
+    - Overgrown Temple
+    - Colossal Rampart
+  Armor:
+  - Item: Archer's Armor
+    Type: 1
+    C: X
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - C
+    - R
+    Locations: Creeper Woods,Pumpkin Pastures,Creepy Crypt
+    AllLocations:
+    - Creeper Woods
+    - Pumpkin Pastures
+    - Creepy Crypt
+  - Item: Arctic Fox Armor
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: X
+    S: X
+    T: X
+    P: 
+    Runes:
+    - U
+    - S
+    - T
+    Locations: Seasonal
+    AllLocations:
+    - Seasonal
+  - Item: Battle Robe
+    Type: 1
+    C: 
+    R: 
+    I: X
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    - A
+    Locations: Creepy Crypt,Redstone Mines,Frosted Fjord,Colossal Rampart
+    AllLocations:
+    - Creepy Crypt
+    - Redstone Mines
+    - Frosted Fjord
+    - Colossal Rampart
+  - Item: Beehive Armor
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: X
+    S: 
+    T: X
+    P: X
+    Runes:
+    - U
+    - T
+    - P
+    Locations: Pumpkin Pastures Daily,Soggy Cave Daily,Lost Settlement Daily
+    AllLocations:
+    - Pumpkin Pastures Daily
+    - Soggy Cave Daily
+    - Lost Settlement Daily
+  - Item: Beenest Armor
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: X
+    S: 
+    T: 
+    P: X
+    Runes:
+    - U
+    - P
+    Locations: Pumpkin Pastures Daily,Soggy Cave Daily,Lost Settlement Daily
+    AllLocations:
+    - Pumpkin Pastures Daily
+    - Soggy Cave Daily
+    - Lost Settlement Daily
+  - Item: Black Wolf Armor
+    Type: 1
+    C: X
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: X
+    S: X
+    T: 
+    P: 
+    Runes:
+    - C
+    - U
+    - S
+    Locations: Creeper Woods,Redstone Mines,???,Lost Settlement
+    AllLocations:
+    - Creeper Woods
+    - Redstone Mines
+    - ???
+    - Lost Settlement
+  - Item: Cave Crawler
+    Type: 1
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: X
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    - U
+    Locations: Redstone Mines,Desert Temple,Overgrown Temple
+    AllLocations:
+    - Redstone Mines
+    - Desert Temple
+    - Overgrown Temple
+  - Item: Champion's Armor
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - T
+    Locations: Arch Haven,Cacti Canyon,Lone Fortress
+    AllLocations:
+    - Arch Haven
+    - Cacti Canyon
+    - Lone Fortress
+  - Item: Climbing Gear
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - T
+    Locations: Windswept Peaks,Colossal Rampart
+    AllLocations:
+    - Windswept Peaks
+    - Colossal Rampart
+  - Item: Dark Armor
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - Q
+    - T
+    Locations: Fiery Forge,Underhalls,Lost Settlement
+    AllLocations:
+    - Fiery Forge
+    - Underhalls
+    - Lost Settlement
+  - Item: Ember Robe
+    Type: 1
+    C: 
+    R: 
+    I: X
+    A: X
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - I
+    - A
+    - S
+    Locations: Soggy Swamp,Soggy Cave,Obsidian Pinnacle,Panda Plateau,Crimson Forest
+    AllLocations:
+    - Soggy Swamp
+    - Soggy Cave
+    - Obsidian Pinnacle
+    - Panda Plateau
+    - Crimson Forest
+  - Item: Emerald Gear
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - A
+    Locations: Gale Sanctum,Colossal Rampart
+    AllLocations:
+    - Gale Sanctum
+    - Colossal Rampart
+  - Item: Evocation Robe
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: X
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - A
+    - S
+    Locations: Soggy Swamp,Soggy Cave,Obsidian Pinnacle,Panda Plateau,Crimson Forest
+    AllLocations:
+    - Soggy Swamp
+    - Soggy Cave
+    - Obsidian Pinnacle
+    - Panda Plateau
+    - Crimson Forest
+  - Item: Fox Armor
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: X
+    S: X
+    T: X
+    P: 
+    Runes:
+    - U
+    - S
+    - T
+    Locations: Creeper Woods,Redstone Mines,???,Lost Settlement
+    AllLocations:
+    - Creeper Woods
+    - Redstone Mines
+    - ???
+    - Lost Settlement
+  - Item: Frost Armor
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: X
+    P: 
+    Runes:
+    - S
+    - T
+    Locations: Frosted Fjord,Lone Fortress
+    AllLocations:
+    - Frosted Fjord
+    - Lone Fortress
+  - Item: Frost Bite
+    Type: 1
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - R
+    - Q
+    - S
+    Locations: Creepy Crypt,Redstone Mines,Soggy Cave,Frosted Fjord
+    AllLocations:
+    - Creepy Crypt
+    - Redstone Mines
+    - Soggy Cave
+    - Frosted Fjord
+  - Item: Full Metal Armor
+    Type: 1
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - I
+    - T
+    Locations: Fiery Forge,Lone Fortress,Gale Sanctum
+    AllLocations:
+    - Fiery Forge
+    - Lone Fortress
+    - Gale Sanctum
+  - Item: Ghost Kindler
+    Type: 1
+    C: X
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: X
+    Runes:
+    - C
+    - I
+    - P
+    Locations: Creepy Crypt Daily,Redstone Mines Daily,Overgrown Temple Daily
+    AllLocations:
+    - Creepy Crypt Daily
+    - Redstone Mines Daily
+    - Overgrown Temple Daily
+  - Item: Ghostly Armor
+    Type: 1
+    C: X
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: X
+    Runes:
+    - C
+    - P
+    Locations: Creepy Crypt Daily,Redstone Mines Daily,Overgrown Temple Daily
+    AllLocations:
+    - Creepy Crypt Daily
+    - Redstone Mines Daily
+    - Overgrown Temple Daily
+  - Item: Gilded Glory
+    Type: 1
+    C: 
+    R: 
+    I: X
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    - A
+    Locations: Gale Sanctum,Colossal Rampart
+    AllLocations:
+    - Gale Sanctum
+    - Colossal Rampart
+  - Item: Goat Gear
+    Type: 1
+    C: X
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - C
+    - T
+    Locations: Windswept Peaks,Colossal Rampart
+    AllLocations:
+    - Windswept Peaks
+    - Colossal Rampart
+  - Item: Golden Piglin Armor
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes: []
+    Locations: Nether Wastes,Basalt Deltas
+    AllLocations:
+    - Nether Wastes
+    - Basalt Deltas
+  - Item: Grim Armor
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - Q
+    - S
+    Locations: Cacti Canyon Daily,Desert Temple,Obsidian Pinnacle,Soul Sand Valley
+    AllLocations:
+    - Cacti Canyon Daily
+    - Desert Temple
+    - Obsidian Pinnacle
+    - Soul Sand Valley
+  - Item: Guard's Armor
+    Type: 1
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    Locations: Cacti Canyon Daily,Desert Temple,Obsidian Pinnacle
+    AllLocations:
+    - Cacti Canyon Daily
+    - Desert Temple
+    - Obsidian Pinnacle
+  - Item: Hero's Armor
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: X
+    P: 
+    Runes:
+    - S
+    - T
+    Locations: Arch Haven,Cacti Canyon,Lone Fortress
+    AllLocations:
+    - Arch Haven
+    - Cacti Canyon
+    - Lone Fortress
+  - Item: Highland Armor
+    Type: 1
+    C: X
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - C
+    - I
+    - T
+    Locations: Pumpkin Pastures,Fiery Forge,Frosted Fjord,Basalt Deltas
+    AllLocations:
+    - Pumpkin Pastures
+    - Fiery Forge
+    - Frosted Fjord
+    - Basalt Deltas
+  - Item: Hungry Horror
+    Type: 1
+    C: X
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: X
+    P: 
+    Runes:
+    - C
+    - S
+    - T
+    Locations: Seasonal
+    AllLocations:
+    - Seasonal
+  - Item: Hunter's Armor
+    Type: 1
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    Locations: Creeper Woods,Pumpkin Pastures,Creepy Crypt
+    AllLocations:
+    - Creeper Woods
+    - Pumpkin Pastures
+    - Creepy Crypt
+  - Item: Living Vines Armor
+    Type: 1
+    C: X
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - C
+    Locations: Crimson Forest,Soul Sand Valley
+    AllLocations:
+    - Crimson Forest
+    - Soul Sand Valley
+  - Item: Mercenary Armor
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: X
+    P: 
+    Runes:
+    - S
+    - T
+    Locations: Creeper Woods,Pumpkin Pastures,Creepy Crypt
+    AllLocations:
+    - Creeper Woods
+    - Pumpkin Pastures
+    - Creepy Crypt
+  - Item: Mystery Armor
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: X
+    Runes:
+    - A
+    - P
+    Locations: Creeper Woods Daily,Soggy Swamp,Desert Temple,Dingy Jungle,Gale Sanctum
+    AllLocations:
+    - Creeper Woods Daily
+    - Soggy Swamp
+    - Desert Temple
+    - Dingy Jungle
+    - Gale Sanctum
+  - Item: Ocelot Armor
+    Type: 1
+    C: X
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - C
+    Locations: Dingy Jungle,Overgrown Temple
+    AllLocations:
+    - Dingy Jungle
+    - Overgrown Temple
+  - Item: Opulent Armor
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - A
+    - T
+    Locations: Gale Sanctum,Colossal Rampart
+    AllLocations:
+    - Gale Sanctum
+    - Colossal Rampart
+  - Item: Phantom Armor
+    Type: 1
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    - Q
+    Locations: Creepy Crypt,Redstone Mines,Soggy Cave,Frosted Fjord
+    AllLocations:
+    - Creepy Crypt
+    - Redstone Mines
+    - Soggy Cave
+    - Frosted Fjord
+  - Item: Piglin Armor
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - A
+    Locations: Nether Wastes,Basalt Deltas
+    AllLocations:
+    - Nether Wastes
+    - Basalt Deltas
+  - Item: Plate Armor
+    Type: 1
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - I
+    - T
+    Locations: Fiery Forge,Lone Fortress,Gale Sanctum
+    AllLocations:
+    - Fiery Forge
+    - Lone Fortress
+    - Gale Sanctum
+  - Item: Reinforced Mail
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - S
+    Locations: Fiery Forge,Lower Temple,Panda Plateau,Nether Fortress
+    AllLocations:
+    - Fiery Forge
+    - Lower Temple
+    - Panda Plateau
+    - Nether Fortress
+  - Item: Renegade Armor
+    Type: 1
+    C: X
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: X
+    P: 
+    Runes:
+    - C
+    - S
+    - T
+    Locations: Creeper Woods,Pumpkin Pastures,Creepy Crypt
+    AllLocations:
+    - Creeper Woods
+    - Pumpkin Pastures
+    - Creepy Crypt
+  - Item: Rugged Climbing Gear
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - T
+    Locations: Windswept Peaks,Colossal Rampart
+    AllLocations:
+    - Windswept Peaks
+    - Colossal Rampart
+  - Item: Scale Mail
+    Type: 1
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - I
+    - T
+    Locations: Pumpkin Pastures,Fiery Forge,Frosted Fjord,Basalt Deltas
+    AllLocations:
+    - Pumpkin Pastures
+    - Fiery Forge
+    - Frosted Fjord
+    - Basalt Deltas
+  - Item: Shadow Walker
+    Type: 1
+    C: X
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - C
+    - T
+    Locations: Dingy Jungle,Overgrown Temple
+    AllLocations:
+    - Dingy Jungle
+    - Overgrown Temple
+  - Item: Snow Armor
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - T
+    Locations: Frosted Fjord,Lone Fortress
+    AllLocations:
+    - Frosted Fjord
+    - Lone Fortress
+  - Item: Soul Robe
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - Q
+    Locations: Creeper Woods,Highblock Halls,Underhalls,Lone Fortress,Warped Forest
+    AllLocations:
+    - Creeper Woods
+    - Highblock Halls
+    - Underhalls
+    - Lone Fortress
+    - Warped Forest
+  - Item: Souldancer Robe
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - Q
+    - T
+    Locations: Creeper WoodsHighblock Halls,Underhalls,Lone Fortress,Warped Forest
+    AllLocations:
+    - Creeper WoodsHighblock Halls
+    - Underhalls
+    - Lone Fortress
+    - Warped Forest
+  - Item: Spelunker Armor
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: X
+    S: 
+    T: 
+    P: 
+    Runes:
+    - U
+    Locations: Redstone Mines,Desert Temple,Overgrown Temple
+    AllLocations:
+    - Redstone Mines
+    - Desert Temple
+    - Overgrown Temple
+  - Item: Spider Armor
+    Type: 1
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - I
+    - T
+    Locations: Redstone Mines,Desert Temple,Overgrown Temple,Soul Sand Valley
+    AllLocations:
+    - Redstone Mines
+    - Desert Temple
+    - Overgrown Temple
+    - Soul Sand Valley
+  - Item: Splendid Robe
+    Type: 1
+    C: 
+    R: X
+    I: X
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    - I
+    - A
+    Locations: Creepy Crypt,Redstone Mines,Frosted Fjord,Colossal Rampart
+    AllLocations:
+    - Creepy Crypt
+    - Redstone Mines
+    - Frosted Fjord
+    - Colossal Rampart
+  - Item: Sprout Armor
+    Type: 1
+    C: X
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - C
+    Locations: Crimson Forest,Soul Sand Valley
+    AllLocations:
+    - Crimson Forest
+    - Soul Sand Valley
+  - Item: Stalwart Armor
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - A
+    - T
+    Locations: Fiery Forge,Lower Temple,Panda Plateau,Nether Fortress
+    AllLocations:
+    - Fiery Forge
+    - Lower Temple
+    - Panda Plateau
+    - Nether Fortress
+  - Item: Thief Armor
+    Type: 1
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Redstone Mines,Desert Temple,Overgrown Temple,Soul Sand Valley
+    AllLocations:
+    - Redstone Mines
+    - Desert Temple
+    - Overgrown Temple
+    - Soul Sand Valley
+  - Item: Titan's Shroud
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: X
+    T: X
+    P: 
+    Runes:
+    - Q
+    - S
+    - T
+    Locations: Fiery Forge,Underhalls,Lost Settlement
+    AllLocations:
+    - Fiery Forge
+    - Underhalls
+    - Lost Settlement
+  - Item: Verdant Robe
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: X
+    Q: 
+    U: X
+    S: X
+    T: 
+    P: 
+    Runes:
+    - A
+    - U
+    - S
+    Locations: Soggy Swamp,Soggy Cave,Obsidian Pinnacle,Panda Plateau,Crimson Forest
+    AllLocations:
+    - Soggy Swamp
+    - Soggy Cave
+    - Obsidian Pinnacle
+    - Panda Plateau
+    - Crimson Forest
+  - Item: Wither Armor
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: X
+    T: X
+    P: 
+    Runes:
+    - Q
+    - S
+    - T
+    Locations: Cacti Canyon Daily,Desert Temple,Obsidian Pinnacle,Soul Sand Valley
+    AllLocations:
+    - Cacti Canyon Daily
+    - Desert Temple
+    - Obsidian Pinnacle
+    - Soul Sand Valley
+  - Item: Wolf Armor
+    Type: 1
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: X
+    S: X
+    T: 
+    P: 
+    Runes:
+    - U
+    - S
+    Locations: Creeper Woods,Redstone Mines,???,Lost Settlement
+    AllLocations:
+    - Creeper Woods
+    - Redstone Mines
+    - ???
+    - Lost Settlement
+  Bows:
+  - Item: Ancient Bow
+    Type: 2
+    C: X
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: X
+    S: 
+    T: 
+    P: 
+    Runes:
+    - C
+    - U
+    Locations: Soggy Swamp,Soggy Cave,Panda Plateau
+    AllLocations:
+    - Soggy Swamp
+    - Soggy Cave
+    - Panda Plateau
+  - Item: Auto Crossbow
+    Type: 2
+    C: X
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - C
+    - R
+    Locations: Redstone Mines,Highblock Halls,Lone Fortress
+    AllLocations:
+    - Redstone Mines
+    - Highblock Halls
+    - Lone Fortress
+  - Item: Azure Seeker
+    Type: 2
+    C: X
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - C
+    - R
+    Locations: Cacti Canyon,Obsidian Pinnacle,Panda Plateau
+    AllLocations:
+    - Cacti Canyon
+    - Obsidian Pinnacle
+    - Panda Plateau
+  - Item: Baby Crossbows
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    Locations: Lower Temple,Windswept Peaks
+    AllLocations:
+    - Lower Temple
+    - Windswept Peaks
+  - Item: Bonebow
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    Locations: Creeper Woods,Creepy Crypt,Desert Temple Daily,Dingy Jungle,Gale Sanctum
+    AllLocations:
+    - Creeper Woods
+    - Creepy Crypt
+    - Desert Temple Daily
+    - Dingy Jungle
+    - Gale Sanctum
+  - Item: Item
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    Locations: Creeper Woods,Creepy Crypt,Desert Temple Daily,Dingy Jungle,Gale Sanctum
+    AllLocations:
+    - Creeper Woods
+    - Creepy Crypt
+    - Desert Temple Daily
+    - Dingy Jungle
+    - Gale Sanctum
+  - Item: Bow of Lost Souls
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    - Q
+    Locations: Creeper Woods,Creepy Crypt,Overgrown Temple
+    AllLocations:
+    - Creeper Woods
+    - Creepy Crypt
+    - Overgrown Temple
+  - Item: Burst Crossbow
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: X
+    Runes:
+    - R
+    - P
+    Locations: Fiery Forge Daily,Underhalls Daily,Panda Plateau Daily
+    AllLocations:
+    - Fiery Forge Daily
+    - Underhalls Daily
+    - Panda Plateau Daily
+  - Item: Burst Gale Bow
+    Type: 2
+    C: X
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - C
+    - I
+    Locations: Colossal Rampart,Gale Sanctum
+    AllLocations:
+    - Colossal Rampart
+    - Gale Sanctum
+  - Item: Butterfly Crossbow
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - R
+    - S
+    Locations: Redstone Mines,Highblock Halls,Lone Fortress
+    AllLocations:
+    - Redstone Mines
+    - Highblock Halls
+    - Lone Fortress
+  - Item: Cog Crossbow
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    Locations: Basalt Deltas
+    AllLocations:
+    - Basalt Deltas
+  - Item: Corrupted Crossbow
+    Type: 2
+    C: X
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: X
+    Runes:
+    - C
+    - R
+    - P
+    Locations: Fiery Forge Daily,Underhalls Daily,Panda Plateau Daily
+    AllLocations:
+    - Fiery Forge Daily
+    - Underhalls Daily
+    - Panda Plateau Daily
+  - Item: Crossbow
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    Locations: Cacti Canyon,Obsidian Pinnacle,Panda Plateau
+    AllLocations:
+    - Cacti Canyon
+    - Obsidian Pinnacle
+    - Panda Plateau
+  - Item: Doom Crossbow
+    Type: 2
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Cacti Canyon,Obsidian Pinnacle,Lone Fortress,Crimson Forest
+    AllLocations:
+    - Cacti Canyon
+    - Obsidian Pinnacle
+    - Lone Fortress
+    - Crimson Forest
+  - Item: Dual Crossbows
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    Locations: Lower Temple,Windswept Peaks
+    AllLocations:
+    - Lower Temple
+    - Windswept Peaks
+  - Item: Echo of the Valley
+    Type: 2
+    C: 
+    R: X
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    - I
+    Locations: Colossal Rampart,Gale Sanctum
+    AllLocations:
+    - Colossal Rampart
+    - Gale Sanctum
+  - Item: Elite Power Bow
+    Type: 2
+    C: 
+    R: X
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    - I
+    Locations: Fiery Forge,Highblock Halls,Underhalls,Nether Fortress
+    AllLocations:
+    - Fiery Forge
+    - Highblock Halls
+    - Underhalls
+    - Nether Fortress
+  - Item: Exploding Crossbow
+    Type: 2
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Redstone Mines,Fiery Forge,Underhalls,???,Dingy Jungle,Colossal Rampart
+    AllLocations:
+    - Redstone Mines
+    - Fiery Forge
+    - Underhalls
+    - ???
+    - Dingy Jungle
+    - Colossal Rampart
+  - Item: Feral Soul Crossbow
+    Type: 2
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - Q
+    Locations: Arch Haven,Obsidian Pinnacle,???
+    AllLocations:
+    - Arch Haven
+    - Obsidian Pinnacle
+    - ???
+  - Item: Firebolt Thrower
+    Type: 2
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Redstone Mines,Fiery Forge,Underhalls,???,Dingy Jungle,Colossal Rampart
+    AllLocations:
+    - Redstone Mines
+    - Fiery Forge
+    - Underhalls
+    - ???
+    - Dingy Jungle
+    - Colossal Rampart
+  - Item: Guardian Bow
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - R
+    - S
+    Locations: Pumpkin Pastures,Arch Haven,Cacti Canyon,Windswept Peaks
+    AllLocations:
+    - Pumpkin Pastures
+    - Arch Haven
+    - Cacti Canyon
+    - Windswept Peaks
+  - Item: Harp crossbow
+    Type: 2
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - I
+    - T
+    Locations: Soggy Swamp,Highblock Halls,Lone Fortress,Soul Sand Valley
+    AllLocations:
+    - Soggy Swamp
+    - Highblock Halls
+    - Lone Fortress
+    - Soul Sand Valley
+  - Item: Haunted Bow
+    Type: 2
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - I
+    - S
+    Locations: Seasonal
+    AllLocations:
+    - Seasonal
+  - Item: Heavy Crossbow
+    Type: 2
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Cacti Canyon,Obsidian Pinnacle,Lone Fortress,Crimson Forest
+    AllLocations:
+    - Cacti Canyon
+    - Obsidian Pinnacle
+    - Lone Fortress
+    - Crimson Forest
+  - Item: Hunter's Promise
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: X
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    - U
+    Locations: Soggy Swamp,Soggy Cave,Panda Plateau
+    AllLocations:
+    - Soggy Swamp
+    - Soggy Cave
+    - Panda Plateau
+  - Item: Hunting Bow
+    Type: 2
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: X
+    S: 
+    T: 
+    P: 
+    Runes:
+    - U
+    Locations: Soggy SwampSoggy Cave,Panda Plateau
+    AllLocations:
+    - Soggy SwampSoggy Cave
+    - Panda Plateau
+  - Item: Imploding Crossbow
+    Type: 2
+    C: 
+    R: 
+    I: X
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    - A
+    Locations: Redstone Mines,Fiery Forge,Underhalls,???,Dingy Jungle,Colossal Rampart
+    AllLocations:
+    - Redstone Mines
+    - Fiery Forge
+    - Underhalls
+    - ???
+    - Dingy Jungle
+    - Colossal Rampart
+  - Item: Lightning Harp Crossbow
+    Type: 2
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - I
+    - T
+    Locations: Soggy Swamp,Highblock Halls,Lone Fortress,Soul Sand Valley
+    AllLocations:
+    - Soggy Swamp
+    - Highblock Halls
+    - Lone Fortress
+    - Soul Sand Valley
+  - Item: Longbow
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    Locations: Pumpkin Pastures,Arch Haven,Cacti Canyon,Windswept Peaks
+    AllLocations:
+    - Pumpkin Pastures
+    - Arch Haven
+    - Cacti Canyon
+    - Windswept Peaks
+  - Item: Love Spell Bow
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - R
+    - S
+    Locations: Cacti Canyon,Desert Temple,Frosted Fjord,Gale Sanctum
+    AllLocations:
+    - Cacti Canyon
+    - Desert Temple
+    - Frosted Fjord
+    - Gale Sanctum
+  - Item: Master's Bow
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    - Q
+    Locations: Soggy Swamp,Soggy Cave,Panda Plateau
+    AllLocations:
+    - Soggy Swamp
+    - Soggy Cave
+    - Panda Plateau
+  - Item: Mechanical Shortbow
+    Type: 2
+    C: X
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - C
+    - R
+    Locations: Cacti Canyon,Desert Temple,Frosted Fjord,Gale Sanctum
+    AllLocations:
+    - Cacti Canyon
+    - Desert Temple
+    - Frosted Fjord
+    - Gale Sanctum
+  - Item: Nocturnal Bow
+    Type: 2
+    C: X
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - C
+    - Q
+    Locations: Creeper Woods,Creepy Crypt,Overgrown Temple
+    AllLocations:
+    - Creeper Woods
+    - Creepy Crypt
+    - Overgrown Temple
+  - Item: Power Bow
+    Type: 2
+    C: 
+    R: X
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    - I
+    Locations: Fiery Forge,Highblock Halls,Underhalls,Nether Fortress
+    AllLocations:
+    - Fiery Forge
+    - Highblock Halls
+    - Underhalls
+    - Nether Fortress
+  - Item: Pride of the Piglins
+    Type: 2
+    C: 
+    R: X
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    - I
+    Locations: Basalt Deltas,Nether Fortress
+    AllLocations:
+    - Basalt Deltas
+    - Nether Fortress
+  - Item: Purple Storm
+    Type: 2
+    C: X
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - C
+    - R
+    Locations: Cacti Canyon,Desert Temple,Frosted Fjord,Gale Sanctum
+    AllLocations:
+    - Cacti Canyon
+    - Desert Temple
+    - Frosted Fjord
+    - Gale Sanctum
+  - Item: Rapid Crossbow
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    Locations: Redstone Mines,Highblock Halls,Lone Fortress
+    AllLocations:
+    - Redstone Mines
+    - Highblock Halls
+    - Lone Fortress
+  - Item: Red Snake
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    - A
+    Locations: Pumpkin Pastures,Arch Haven,Cacti Canyon,Windswept Peaks
+    AllLocations:
+    - Pumpkin Pastures
+    - Arch Haven
+    - Cacti Canyon
+    - Windswept Peaks
+  - Item: Sabrewing
+    Type: 2
+    C: 
+    R: X
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - R
+    - I
+    - S
+    Locations: Fiery Forge,Highblock Halls,Underhalls,Nether Fortress
+    AllLocations:
+    - Fiery Forge
+    - Highblock Halls
+    - Underhalls
+    - Nether Fortress
+  - Item: Scatter Crossbow
+    Type: 2
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - T
+    Locations: Soggy Swamp,Highblock Halls,Lone Fortress,Soul Sand Valley
+    AllLocations:
+    - Soggy Swamp
+    - Highblock Halls
+    - Lone Fortress
+    - Soul Sand Valley
+  - Item: Shivering Bow
+    Type: 2
+    C: X
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - C
+    - Q
+    Locations: Seasonal
+    AllLocations:
+    - Seasonal
+  - Item: Shortbow
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    Locations: Cacti Canyon,Desert Temple,Frosted Fjord,Gale Sanctum
+    AllLocations:
+    - Cacti Canyon
+    - Desert Temple
+    - Frosted Fjord
+    - Gale Sanctum
+  - Item: Slayer Crossbow
+    Type: 2
+    C: 
+    R: X
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    - I
+    Locations: Cacti Canyon,Obsidian Pinnacle,Lone Fortress,Crimson Forest
+    AllLocations:
+    - Cacti Canyon
+    - Obsidian Pinnacle
+    - Lone Fortress
+    - Crimson Forest
+  - Item: Snow Bow
+    Type: 2
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - S
+    Locations: Frosted Fjord,Lost Settlement
+    AllLocations:
+    - Frosted Fjord
+    - Lost Settlement
+  - Item: Soul Bow
+    Type: 2
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - Q
+    Locations: Creeper Woods,Creepy Crypt,Overgrown Temple
+    AllLocations:
+    - Creeper Woods
+    - Creepy Crypt
+    - Overgrown Temple
+  - Item: Soul Crossbow
+    Type: 2
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - Q
+    Locations: Arch Haven,Obsidian Pinnacle,???
+    AllLocations:
+    - Arch Haven
+    - Obsidian Pinnacle
+    - ???
+  - Item: Soul Hunter Crossbow
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: X
+    Runes:
+    - R
+    - Q
+    - P
+    Locations: Fiery Forge Daily,Underhalls Daily,Panda Plateau Daily
+    AllLocations:
+    - Fiery Forge Daily
+    - Underhalls Daily
+    - Panda Plateau Daily
+  - Item: Spellbound Crossbows
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    - A
+    Locations: Lower Temple,Windswept Peaks
+    AllLocations:
+    - Lower Temple
+    - Windswept Peaks
+  - Item: The Green Menace
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    - A
+    Locations: Cacti Canyon,Lower Temple,Overgrown Temple,Nether Wastes,Basalt Deltas
+    AllLocations:
+    - Cacti Canyon
+    - Lower Temple
+    - Overgrown Temple
+    - Nether Wastes
+    - Basalt Deltas
+  - Item: The Pink Scoundrel
+    Type: 2
+    C: 
+    R: X
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    - I
+    Locations: Cacti Canyon,Lower Temple,Overgrown Temple,Nether Wastes,Basalt Deltas
+    AllLocations:
+    - Cacti Canyon
+    - Lower Temple
+    - Overgrown Temple
+    - Nether Wastes
+    - Basalt Deltas
+  - Item: The Slicer
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    Locations: Cacti Canyon,Obsidian Pinnacle,Panda Plateau
+    AllLocations:
+    - Cacti Canyon
+    - Obsidian Pinnacle
+    - Panda Plateau
+  - Item: Trickbow
+    Type: 2
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - Q
+    Locations: Cacti Canyon,Lower Temple,Overgrown Temple,Nether Wastes,Basalt Deltas
+    AllLocations:
+    - Cacti Canyon
+    - Lower Temple
+    - Overgrown Temple
+    - Nether Wastes
+    - Basalt Deltas
+  - Item: Twin Bow
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - R
+    - S
+    Locations: Creeper Woods,Creepy Crypt,DesertTemple Daily,Dingy Jungle,Gale Sanctum
+    AllLocations:
+    - Creeper Woods
+    - Creepy Crypt
+    - DesertTemple Daily
+    - Dingy Jungle
+    - Gale Sanctum
+  - Item: Twisting Vine Bow
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    Locations: Nether Wastes,Warped Forest
+    AllLocations:
+    - Nether Wastes
+    - Warped Forest
+  - Item: Voidcaller
+    Type: 2
+    C: 
+    R: 
+    I: 
+    A: X
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - A
+    - Q
+    Locations: Arch Haven,Obsidian Pinnacle,???
+    AllLocations:
+    - Arch Haven
+    - Obsidian Pinnacle
+    - ???
+  - Item: Weeping Vine Bow
+    Type: 2
+    C: X
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - C
+    - R
+    Locations: Nether Wastes,Warped Forest
+    AllLocations:
+    - Nether Wastes
+    - Warped Forest
+  - Item: Wind Bow
+    Type: 2
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Colossal Rampart,Gale Sanctum
+    AllLocations:
+    - Colossal Rampart
+    - Gale Sanctum
+  - Item: Winter's Touch
+    Type: 2
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - R
+    - S
+    Locations: Frosted Fjord,Lost Settlement
+    AllLocations:
+    - Frosted Fjord
+    - Lost Settlement
+  Artifacts:
+  - Item: Blast Fungus
+    Type: 3
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Warped Forest,Crimson Forest
+    AllLocations:
+    - Warped Forest
+    - Crimson Forest
+  - Item: Boots of Swiftness
+    Type: 3
+    C: X
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - C
+    Locations: Creeper Woods,Creepy Crypt,Desert Temple,Soul Sand Valley
+    AllLocations:
+    - Creeper Woods
+    - Creepy Crypt
+    - Desert Temple
+    - Soul Sand Valley
+  - Item: Buzzy Nest
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: X
+    S: 
+    T: 
+    P: 
+    Runes:
+    - U
+    Locations: Soggy Cave,Lower Temple,Dingy Jungle,Colossal Rampart,Nether Wastes
+    AllLocations:
+    - Soggy Cave
+    - Lower Temple
+    - Dingy Jungle
+    - Colossal Rampart
+    - Nether Wastes
+  - Item: Corrupted Beacon
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - Q
+    Locations: Pumpkin Pastures,Cacti Canyon,Redstone Mines,Gale Sanctum
+    AllLocations:
+    - Pumpkin Pastures
+    - Cacti Canyon
+    - Redstone Mines
+    - Gale Sanctum
+  - Item: Corrupted Pumpkin
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - Q
+    Locations: Seasonal
+    AllLocations:
+    - Seasonal
+  - Item: Corrupted Seeds
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - A
+    Locations: Panda Plateau,Overgrown Temple
+    AllLocations:
+    - Panda Plateau
+    - Overgrown Temple
+  - Item: Death Cap Mushroom
+    Type: 3
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Creeper Woods,Highblock Halls,Windswept Peaks,Warped Forest
+    AllLocations:
+    - Creeper Woods
+    - Highblock Halls
+    - Windswept Peaks
+    - Warped Forest
+  - Item: Enchanted Grass
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: X
+    Q: 
+    U: X
+    S: 
+    T: 
+    P: 
+    Runes:
+    - A
+    - U
+    Locations: ???
+    AllLocations:
+    - ???
+  - Item: Enchanter's Tome
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - A
+    Locations: Windswept Peaks
+    AllLocations:
+    - Windswept Peaks
+  - Item: Fireworks Arrow
+    Type: 3
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    Locations: Redstone Mines,Highblock Halls,Underhalls,Colossal Rampart
+    AllLocations:
+    - Redstone Mines
+    - Highblock Halls
+    - Underhalls
+    - Colossal Rampart
+  - Item: Fishing Rod
+    Type: 3
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Creepy Crypt,Soggy Swamp,Soggy Cave,Frosted Fjord
+    AllLocations:
+    - Creepy Crypt
+    - Soggy Swamp
+    - Soggy Cave
+    - Frosted Fjord
+  - Item: Flaming Quiver
+    Type: 3
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    Locations: Pumpkin Pastures,Fiery Forge,Nether Fortress
+    AllLocations:
+    - Pumpkin Pastures
+    - Fiery Forge
+    - Nether Fortress
+  - Item: Ghost Cloak
+    Type: 3
+    C: X
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - C
+    - T
+    Locations: Creepy Crypt,Lower Temple,Obsidian Pinnacle,Windswept Peaks,Nether
+      Fortress
+    AllLocations:
+    - Creepy Crypt
+    - Lower Temple
+    - Obsidian Pinnacle
+    - Windswept Peaks
+    - Nether Fortress
+  - Item: Golem Kit
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: X
+    S: 
+    T: 
+    P: 
+    Runes:
+    - U
+    Locations: Pumpkin Pastures,Lost Settlement
+    AllLocations:
+    - Pumpkin Pastures
+    - Lost Settlement
+  - Item: Gong of Weakening
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - S
+    Locations: Desert Temple
+    AllLocations:
+    - Desert Temple
+  - Item: Harvester
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - Q
+    Locations: Soggy Swamp,Redstone Mines,Gale Sanctum,Soul Sand Valley
+    AllLocations:
+    - Soggy Swamp
+    - Redstone Mines
+    - Gale Sanctum
+    - Soul Sand Valley
+  - Item: Ice Wand
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - A
+    Locations: Frosted Fjord,Lone Fortress
+    AllLocations:
+    - Frosted Fjord
+    - Lone Fortress
+  - Item: Iron Hide Amulet
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: X
+    P: 
+    Runes:
+    - T
+    Locations: Fiery Forge,Lower Temple,Underhalls,Dingy Jungle
+    AllLocations:
+    - Fiery Forge
+    - Lower Temple
+    - Underhalls
+    - Dingy Jungle
+  - Item: Light Feather
+    Type: 3
+    C: X
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - C
+    Locations: Pumpkin Pastures,Arch Haven,Highblock Halls,Lost Settlement
+    AllLocations:
+    - Pumpkin Pastures
+    - Arch Haven
+    - Highblock Halls
+    - Lost Settlement
+  - Item: Lighting Rod
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - Q
+    Locations: Soggy Swamp,Soggy Cave,Obsidian Pinnacle,Frosted Fjord,Nether Fortress
+    AllLocations:
+    - Soggy Swamp
+    - Soggy Cave
+    - Obsidian Pinnacle
+    - Frosted Fjord
+    - Nether Fortress
+  - Item: Love Medallion
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - A
+    Locations: Arch Haven,Highblock Halls,Underhalls,Panda Plateau
+    AllLocations:
+    - Arch Haven
+    - Highblock Halls
+    - Underhalls
+    - Panda Plateau
+  - Item: Power Shaker
+    Type: 3
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Warped Forest,Nether Fortress
+    AllLocations:
+    - Warped Forest
+    - Nether Fortress
+  - Item: Satchel of Elements
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - A
+    Locations: Gale Sanctum
+    AllLocations:
+    - Gale Sanctum
+  - Item: Scatter Mines
+    Type: 3
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Colossal Rampart
+    AllLocations:
+    - Colossal Rampart
+  - Item: Shock Powder
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: X
+    P: 
+    Runes:
+    - S
+    - T
+    Locations: Desert Temple,Lower Temple,Obsidian Pinnacle,Lost Settlement,Warped
+      Forest
+    AllLocations:
+    - Desert Temple
+    - Lower Temple
+    - Obsidian Pinnacle
+    - Lost Settlement
+    - Warped Forest
+  - Item: Soul Healer
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - Q
+    - S
+    Locations: Soggy Swamp,Soggy Save,Fiery Forge,Overgrown Temple,Crimson Forest
+    AllLocations:
+    - Soggy Swamp
+    - Soggy Save
+    - Fiery Forge
+    - Overgrown Temple
+    - Crimson Forest
+  - Item: Soul Lantern
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: X
+    U: X
+    S: 
+    T: 
+    P: 
+    Runes:
+    - Q
+    - U
+    Locations: Creepy Crypt,Cacti Canyon,Underhalls,Soul Sand Valley
+    AllLocations:
+    - Creepy Crypt
+    - Cacti Canyon
+    - Underhalls
+    - Soul Sand Valley
+  - Item: Spinblade
+    Type: 3
+    C: 
+    R: 
+    I: X
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - I
+    Locations: Nether Wastes,Basalt Deltas
+    AllLocations:
+    - Nether Wastes
+    - Basalt Deltas
+  - Item: Tasty Bone
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: X
+    S: 
+    T: 
+    P: 
+    Runes:
+    - U
+    Locations: Creeper Woods,Creepy Crypt,Redstone Mines,Dingy Jungle
+    AllLocations:
+    - Creeper Woods
+    - Creepy Crypt
+    - Redstone Mines
+    - Dingy Jungle
+  - Item: Thundering Quiver
+    Type: 3
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    Locations: Nether Wastes,Soul Sand Valley
+    AllLocations:
+    - Nether Wastes
+    - Soul Sand Valley
+  - Item: Torment Quiver
+    Type: 3
+    C: 
+    R: X
+    I: 
+    A: 
+    Q: X
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - R
+    - Q
+    Locations: Creeper Woods,Desert Temple,Lower Temple,Lone Fortress
+    AllLocations:
+    - Creeper Woods
+    - Desert Temple
+    - Lower Temple
+    - Lone Fortress
+  - Item: Totem of Regeneration
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: 
+    P: 
+    Runes:
+    - S
+    Locations: Soggy Swamp,Soggy Cave,Fiery Forge,Dingy Jungle,Basalt Deltas
+    AllLocations:
+    - Soggy Swamp
+    - Soggy Cave
+    - Fiery Forge
+    - Dingy Jungle
+    - Basalt Deltas
+  - Item: Totem of Shielding
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: 
+    S: X
+    T: X
+    P: 
+    Runes:
+    - S
+    - T
+    Locations: Cacti Canyon,Desert Temple,Underhalls,Lone Fortress,Crimson Forest
+    AllLocations:
+    - Cacti Canyon
+    - Desert Temple
+    - Underhalls
+    - Lone Fortress
+    - Crimson Forest
+  - Item: Updraft Tome
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: X
+    Q: 
+    U: 
+    S: 
+    T: 
+    P: 
+    Runes:
+    - A
+    Locations: Windswept Peaks
+    AllLocations:
+    - Windswept Peaks
+  - Item: Wind Horn
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: X
+    S: X
+    T: 
+    P: 
+    Runes:
+    - U
+    - S
+    Locations: Pumpkin Pastures,Arch Haven,Cacti Canyon,Overgrown Temple,Windswept
+      Peaks,Nether Wastes
+    AllLocations:
+    - Pumpkin Pastures
+    - Arch Haven
+    - Cacti Canyon
+    - Overgrown Temple
+    - Windswept Peaks
+    - Nether Wastes
+  - Item: Wonderful Wheat
+    Type: 3
+    C: 
+    R: 
+    I: 
+    A: 
+    Q: 
+    U: X
+    S: 
+    T: 
+    P: 
+    Runes:
+    - U
+    Locations: Arch Haven,Cacti Canyon,Obsidian Pinnacle,Panda Plateau,Basalt Deltas
+    AllLocations:
+    - Arch Haven
+    - Cacti Canyon
+    - Obsidian Pinnacle
+    - Panda Plateau
+    - Basalt Deltas
