@@ -33,10 +33,10 @@ MonoBehaviour:
   - Name: U
     Image: {fileID: 21300000, guid: 2d9d07dd863a94543ade9ac78501b37c, type: 3}
   LootTablesData: {fileID: 4900000, guid: ab5e6f571a5584247ab80d65ac5d83a8, type: 3}
-  WeaponsData: {fileID: 4900000, guid: 761ed14c9f0fb4a46bd0398d588ffea0, type: 3}
-  ArmorData: {fileID: 4900000, guid: 803efbdb08e880340bd411be3432286e, type: 3}
-  BowsData: {fileID: 4900000, guid: 9829ddcdb88100f499f6f3931cb3ec6b, type: 3}
-  ArtifactsData: {fileID: 4900000, guid: be25cb3e14dcbd84496fc4ac24d69cc9, type: 3}
+  WeaponsData: {fileID: 4900000, guid: ea7ef2d7247599f468c1d74fcbbdd35b, type: 3}
+  ArmorData: {fileID: 4900000, guid: 615369ee2022c714da707fbc2c322238, type: 3}
+  BowsData: {fileID: 4900000, guid: cf8172093017f0b4eae28e737dde400e, type: 3}
+  ArtifactsData: {fileID: 4900000, guid: dc7be30ef9c4ebb4599c667cf3c6b180, type: 3}
   LootTables:
   - Mob: ?????
     Loot: Gauntlets,Ghostly Armor,Dual Crossbows,Katana
